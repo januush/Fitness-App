@@ -1,0 +1,38 @@
+.app-header {
+  background: #fff;
+  border-bottom: 1px solid #c1cedb;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.app-header img {
+  display: inline-block;
+}
+
+.app-header__user-info {
+  position: absolute;
+  top: 16px;
+  right: 0;
+  cursor: pointer;
+}
+
+.app-header span {
+  background: url(/img/logout.svg) no-repeat;
+  background-size: contain;
+  width: 24px;
+  height: 24px;
+  display: block;
+  opacity: 0.4;
+}
+
+.app-header span:hover {
+  opacity: 0.9;
+}
+
+.wrapper {
+  max-width: 800px;
+  width: 96%;
+  margin: 0 auto;
+  position: relative;
+}
+/*# sourceMappingURL=app-header.component.css.map */

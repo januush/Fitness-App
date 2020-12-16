@@ -1,0 +1,103 @@
+:host ::ng-deep .error {
+  color: #a94442;
+  background: #f2dede;
+  border: 1px solid #e4b3b3;
+  border-radius: 2px;
+  padding: 8px;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 10px 0 0;
+}
+
+:host ::ng-deep h1 {
+  margin: 0 0 25px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+:host ::ng-deep button {
+  cursor: pointer;
+  outline: 0;
+  width: 100%;
+  border-radius: 2px;
+  border: 1px solid #1c79b8;
+  background: #39a1e7;
+  color: #fff;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+:host ::ng-deep button:hover {
+  background: #2296e4;
+  border-color: #196aa2;
+}
+
+:host ::ng-deep button:disabled {
+  opacity: .4;
+  cursor: not-allowed;
+}
+
+:host ::ng-deep a {
+  display: block;
+  text-align: center;
+  color: #5e7386;
+  font-size: 14px;
+}
+
+.auth-form {
+  background: #fff;
+  -webkit-box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  border: 1px solid #c1cedb;
+  width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+}
+
+.auth-form__action {
+  margin: 10px 0 30px;
+}
+
+.auth-form__toggle {
+  border-radius: 0 0 3px 3px;
+  border-top: 1px solid #c1cedb;
+  background: #f8fafc;
+  padding: 10px;
+  margin: 0 -30px -30px;
+}
+
+.auth-form label {
+  display: block;
+  margin: 0;
+}
+
+.auth-form input {
+  outline: 0;
+  font-size: 16px;
+  padding: 10px 0px;
+  margin: 0;
+  width: 100%;
+  background: #fafcfd;
+  color: #5777a8;
+  border: 1px solid #d1deeb;
+  text-align: center;
+}
+
+.auth-form input::-webkit-input-placeholder {
+  color: #5777a8;
+}
+
+.auth-form input[type=email] {
+  border-radius: 3px 3px 0 0;
+}
+
+.auth-form input[type=password] {
+  border-radius: 0 0 3px 3px;
+  margin: -1px 0 0;
+}
+/*# sourceMappingURL=auth-form.component.css.map */

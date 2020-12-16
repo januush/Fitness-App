@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "fitness-app-5151c": {
+      "hosting": {
+        "fit-app": [
+          "fitness-app-5151c"
+        ]
+      }
+    }
+  }
+}

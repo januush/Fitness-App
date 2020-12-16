@@ -1,0 +1,14 @@
+:host {
+  width: 100%;
+}
+
+.wrapper {
+  max-width: 800px;
+  width: 96%;
+  margin: 0 auto;
+}
+
+h1 {
+  color: green;
+}
+/*# sourceMappingURL=app.component.css.map */
